@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lugrasimo&display=swap');
+
+body{
+  background-color: rgb(19, 16, 16);
+}
+
+*{
+ margin: 0;
+padding: 0%;
+box-sizing: border-box;
+text-decoration: none;
+list-style: none;
+font-family: "Indie Flower", cursive;;
+
+}
+
+
+
+
+
+
+header{
+display:flex;
+
+max-width: 100;
+align-items: center;
+text-align: center;
+padding: 1rem;
+
+
+}
+
+.cabeçalho-link{
+
+  display: flex;
+  gap: 3rem;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: "Lugrasimo", cursive;
+  
+}
+.cabeçalho-link a{
+color: rgb(255, 153, 0);
+font-size: 12px;
+
+}
+
+
+.cabeçalho-link a:hover 
+{
+color: rgb(255, 238, 0);
+transition: 0.3s all;
+
+}
+
+.flex{
+
+display: flex;
+justify-content: center;
+}
+
+.txt-topo-do-site{
+color: rgb(238, 131, 9);
+
+
+}
+
+section .topo-do-site .flex{
+align-items: center;
+justify-content: center;
+
+}
+
+
+section{
+padding:20vh;
+
+
+
+}
+
+.experiências{
+
+color: rgb(238, 131, 9);
+
+}
+
+.tecnologias{
+
+color: rgb(238, 131, 9);
+
+}
+
+
+.contatos{
+
+  color: rgb(238, 131, 9);
+
+}
+
+
+
+
+
+
+form input,form textarea{
+width: 400;
+background-color:rgba(0, 0, 0, 0.137) ;
+border:0cap;
+outline: 0px;
+padding: 20px 15px;
+border-radius: 15px;
+color: rgb(238, 131, 9);
+font-size: 18px;
+
+}
+
+
+form textarea{
+
+resize: none;
+max-height: 200px;
+}
+
+.btn_enviar{
+
+margin-top: 20px;
+
+}
+
+form .btn_enviar input{
+
+width: 120px;
+color:rgb(238, 131, 9) ;
+font-weight: 700;
+cursor: pointer;
+}
+
+
+h2{
+
+ text-align: center;
+
+}
+
+.txt-topo-do-site{
+
+  justify-content: left;
+}
